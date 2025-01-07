@@ -1,0 +1,63 @@
+#bookings-form {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  margin: 40px auto;
+}
+
+#bookings-form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#bookings-form table th, #bookings-form table td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+}
+#bookings-form table th {
+  background-color: #444;
+}
+
+#bookings-form label {
+  color: #fff;
+  font-weight: bold;
+}
+
+#bookings-form input[type="text"], #bookings-form input[type="email"], #bookings-form input[type="tel"], #bookings-form select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;#bookings-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #bookings-form button[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #bookings-form button[type="submit"]:hover {
+    background-color: #666;
+  
+}
+}

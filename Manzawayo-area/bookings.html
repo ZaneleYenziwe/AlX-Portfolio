@@ -1,0 +1,48 @@
+#FOR BOOKINGS
+
+<form id="bookings-form">
+    <link rel="stylesheet" href="bookings.css">
+  <table>
+    <tr>
+      <th>Name:</th>
+      <td><input type="text" id="name" name="name"></td>
+    </tr>
+    <tr>
+      <th>Email:</th>
+      <td><input type="email" id="email" name="email"></td>
+    </tr>
+    <tr>
+      <th>Phone:</th>
+      <td><input type="tel" id="phone" name="phone"></td>
+    </tr>
+    <tr>
+      <th>Tour Type:</th>
+      <td><select id="tour-type" name="tour-type">
+        <option value="hiking">Hiking</option>
+        <option value="tour">Tour</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th>Date:</th>
+      <td><input type="date" id="date" name="date"></td>
+    </tr>
+    <tr>
+      <th>Payment Method:</th>
+      <td><img src="c:\Users\Yenziwe\OneDrive\Desktop\ALX PORTFOLIO PROJECT\MANZAWAYO\MASTERCARD.jpeg" alt="Mastercard Logo" width="50px">
+        <br>
+        <input type="radio" id="pay-later" name="payment-method" value="pay-later">
+        <label for="pay-later">Pay Now</label>
+        <br>
+        <input type="radio" id="scan-code" name="payment-method" value="scan-code">
+        <label for="scan-code">Scan Code</label>
+        <img src="c:\Users\Yenziwe\Downloads\qrcode.png" alt="QR Code" width="100px">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><button type="submit">Book Now</button></td>
+    </tr>
+  </table>
+</form>
+
+        <input type="radio" id="pay-now" name="payment-method" value="pay-now">
+        <label for="pay-now">Pay Later</label>
