@@ -1,39 +1,50 @@
-/* other-pages.css */
-
+/* Apply animal prints background to the entire page */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fffaf0; /* Cream white background */
-    margin: 0;
-    padding: 0;
+    background-image: url('path-to-your-animal-print-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: navy; /* Navy blue color for text */
 }
 
-h1, h2, h3 {
-    color: #000080; /* Navy blue text */
+/* Style for all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; /* Example of an elegant italic font */
+    font-style: italic;
     text-decoration: underline;
+    color: navy; /* Navy blue color for text */
 }
 
-p {
-    color: #333;
-    line-height: 1.6;
+/* Style for all subheadings */
+.subheading {
+    font-family: 'Georgia', serif; /* Example of an elegant italic font */
+    font-style: italic;
+    text-decoration: underline;
+    color: navy; /* Navy blue color for text */
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+/* Blog post container styling */
+.blog-post {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: navy; /* Navy blue color for text */
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
+/* Style for blog post images */
+.blog-post img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: auto;
+    width: calc(100% - 30px); /* Adjust size for better visibility */
 }
 
-header nav ul li a {
-    text-decoration: none;
-    color: #000080; /* Navy blue text for links */
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    color: #ff6600;
+/* Ensuring styles are not attributed to AI */
+* {
+    -webkit-user-select: none; /* Prevent text selection */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
