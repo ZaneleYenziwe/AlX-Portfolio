@@ -1,57 +1,90 @@
-/* styles.css */
-
+/* Basic page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
-h1 {
+/* Header styling */
+header {
+    background: url('path-to-your-header-image.jpg') no-repeat center center;
+    background-size: cover;
     text-align: center;
-    color: #333;
+    padding: 100px 0;
+    position: relative;
 }
 
-.container {
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+header .register-btn {
+    background-color: #00b140;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header .register-btn:hover {
+    background-color: #009933;
+}
+
+/* Section styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Topics section styling */
+.topics {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
 }
 
-.event-box {
-    background-color: #ffcc00; /* Default color, change for each event */
-    color: #fff;
+.topic {
+    background-color: #2a2a2a;
+    padding: 20px;
     margin: 10px;
-    padding: 20px;
-    width: 250px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    border-radius: 10px;
+    width: 22%;
+    min-width: 250px;
 }
 
-.event-box:nth-child(1) {
-    background-color: #ffcc00; /* Color for "Welcome Seminar" */
-}
-
-.event-box:nth-child(2) {
-    background-color: #ff6600; /* Color for "Goals" */
-}
-
-.event-box:nth-child(3) {
-    background-color: #66ccff; /* Color for "Motivation" */
-}
-
-.event-box:nth-child(4) {
-    background-color: #ff3333; /* Color for "The Wrap Up" */
-}
-
-.event-date {
+.topic h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    font-weight: bold;
 }
 
-.event-description {
+.topic p {
     font-size: 1em;
 }
+
+.topic .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #00b140;
+}
+
