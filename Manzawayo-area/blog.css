@@ -1,0 +1,39 @@
+/* other-pages.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0; /* Cream white background */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #000080; /* Navy blue text */
+    text-decoration: underline;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000080; /* Navy blue text for links */
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
