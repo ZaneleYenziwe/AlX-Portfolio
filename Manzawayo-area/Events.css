@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.event-box {
+    background-color: #ffcc00; /* Default color, change for each event */
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event-box:nth-child(1) {
+    background-color: #ffcc00; /* Color for "Welcome Seminar" */
+}
+
+.event-box:nth-child(2) {
+    background-color: #ff6600; /* Color for "Goals" */
+}
+
+.event-box:nth-child(3) {
+    background-color: #66ccff; /* Color for "Motivation" */
+}
+
+.event-box:nth-child(4) {
+    background-color: #ff3333; /* Color for "The Wrap Up" */
+}
+
+.event-date {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.event-description {
+    font-size: 1em;
+}
