@@ -1,6 +1,6 @@
 /* Apply animal prints background to the entire page */
 body {
-    background-image: url('path-to-your-animal-print-image.jpg'); /* Replace with your image path */
+    background-image: url('ingwek.jpg'); /* Replace with your image path */
     background-size: cover;
     background-repeat: no-repeat;
     color: navy; /* Navy blue color for text */
@@ -35,16 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Style for blog post images */
 .blog-post img {
     max-width: 100%;
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 36px;
+    margin-top: 36px;
     height: auto;
     width: calc(100% - 30px); /* Adjust size for better visibility */
-}
-
-/* Ensuring styles are not attributed to AI */
-* {
-    -webkit-user-select: none; /* Prevent text selection */
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
