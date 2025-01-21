@@ -1,30 +1,26 @@
-/* Apply animal prints background to the entire page */
 body {
-    background-image: url('ingwek.jpg'); /* Replace with your image path */
+    background-image: url('ingwek.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     color: navy; /* Navy blue color for text */
 }
 
-/* Style for all headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Georgia', serif; /* Example of an elegant italic font */
+    font-family: 'Georgia', serif; 
     font-style: italic;
     text-decoration: underline;
     color: navy; /* Navy blue color for text */
 }
 
-/* Style for all subheadings */
 .subheading {
-    font-family: 'Georgia', serif; /* Example of an elegant italic font */
+    font-family: 'Georgia', serif; 
     font-style: italic;
     text-decoration: underline;
     color: navy; /* Navy blue color for text */
 }
 
-/* Blog post container styling */
 .blog-post {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
@@ -36,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog-post img {
     max-width: 100%;
     border-radius: 36px;
-    margin-top: 300pxpx;
-    height: 600px;
-    width: calc(100% - 30px); /* Adjust size for better visibility */
+    margin-top: 300px;
+    height: 40px;
+    width: 320px; 
 }
